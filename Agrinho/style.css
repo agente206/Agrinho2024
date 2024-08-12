@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --branco: white;
+    --verde: #70b609;
+    --preto: #282729;
+    --cor-de-fundo: #f1faff;
+    --montserrat: 'Montserrat', sans-serif;
+    --monrserrat-alt: 'Montserrat Alternates', sans-serif;
+    --bilbo: 'Bilbo Swash Caps', cursive;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.cabecalio {
+    background-color: #70b609;
+    color: var(--branco);
+    padding: 10px 0;
+    width: 100vw;
+}
+.titulo-principal {
+    font-family: var(--bilbo);
+    font-size: 75px;
+    margin: 20px 0 0 40px;
+}
+.paragrafo-principal {
+    font-family: var(--montserrat);
+    font-size: 25px;
+    margin: 5px 0 10px 120px;
+}
+
+.caixa-preta {
+    background-color: var(--preto);
+    padding: 10px;
+}
+
+.sobre-1 {
+    margin: 30px;
+    display: flex;
+}
+.titulo-segundario {
+    font-family: var(--monrserrat-alt);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+.paragrafo-segundario {
+    font-family: var(--montserrat);
+    font-size: 25px;
+    margin: 20px 0;
+}
+.barraquinha {
+    width: 50vw;
+    height: 50vh;
+    margin: 20px;
+}
+
+.caixa-1 {
+    display: flex;
+    margin-top: 80px;
+}
+.form-1 {
+    border: 2px solid var(--preto);
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 80px;
+    width: 30vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-label {
+    font-family: var(--montserrat);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.input {
+    border: 1px solid var(--preto);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    width: 20vw;
+    padding: 5px;
+}
+.enviar {
+    border: 0 solid var(--verde);
+    border-radius: 50px;
+    background-color: var(--verde);
+    color: var(--branco);
+    font-family: var(--monrserrat-alt);
+    font-size: 25px;
+    align-self: center;
+    width: 150px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.enviar:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.descricao { 
+    text-align: center;
+    
+}
+.titulo-terciario{
+    font-family: var(--montserrat);
+    font-size: 35px;
+    font-weight: bold;
+    margin: 30px auto;
+    width: 50%;
+    
+}
+.paragrafo-terciario{
+    font-family: var(--montserrat);
+    font-size: 25px;
+    margin: 30px auto;
+    width: 50%;
+    
+}
+
+.caixa-2 {
+    display: flex;
+    margin: 80px 0;
+}
+.form-2{
+    border: 2px solid var(--preto);
+    border-radius: 30px;
+    padding: 20px;
+    margin-right: 80px;
+    width: 30vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape{
+    background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
